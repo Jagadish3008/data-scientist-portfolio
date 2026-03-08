@@ -1,0 +1,87 @@
+
+body{
+margin:0;
+font-family:Arial;
+background:#f5f5f5;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#0f172a;
+color:white;
+padding:15px 10%;
+position:sticky;
+top:0;
+}
+
+.nav-links a{
+margin-left:20px;
+color:white;
+text-decoration:none;
+}
+
+.hero{
+text-align:center;
+padding:80px 20px;
+background:#111827;
+color:white;
+}
+
+.profile{
+width:160px;
+border-radius:50%;
+margin-bottom:20px;
+}
+
+.buttons a{
+margin:10px;
+padding:10px 18px;
+background:#2563eb;
+color:white;
+text-decoration:none;
+border-radius:6px;
+}
+
+section{
+padding:70px 15%;
+}
+
+.dark{
+background:#111827;
+color:white;
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.skills span{
+background:#2563eb;
+color:white;
+padding:8px 14px;
+border-radius:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+margin-top:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.dark .card{
+background:#1f2937;
+color:white;
+}
+
+footer{
+text-align:center;
+background:#0f172a;
+color:white;
+padding:20px;
+}
